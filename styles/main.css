@@ -1,27 +1,37 @@
 body {
   font-family: helvetica, arial;
   font-size: 18px;
-  background-color: #EEE;
+  background-color: #111;
+
 }
 
 p {
+  font
 }
 
 h3 {
   font-size: 22px;
-  font-weight: normal;
 }
 
 h1 {
-  color: #8129bc;
+  color: #EEE;
   padding: 10px 0px;
   margin: auto;
   float: left;
-  text-decoration: underline;
+  font-weight: lighter;
 }
 
+header {
+  color: purple;
+  margin: 20px 10px 10px 10px;
+  padding: 5px 15px;
+  border-radius: 8px;
+  border-color: white;
+  border-style: ridge;
+  background-color: #001932;
+  overflow: hidden;
+}
 ul {
-  background-color: #009900;
   list-style-type: none;
   margin: 0;
   padding: 5px 5px;
@@ -30,22 +40,25 @@ ul {
 
 ul li {
   float: left;
-  background-color: yellow;
+  background-color: #BBB;
   border-radius: 10px;
   border-style: solid;
-  border-width: thin;
+  border-width: 2px;
   margin: 5px 1px;
   padding: 9px 9px;
 }
 
 ul a:hover,li:hover {
-  background-color: blue;
+  background-color: purple;
   color: white;
 
 }
 
 nav {
-  float:left;
+  background-color: #DDD;
+  float: center;
+  padding: 7px 7px;
+  margin: 20px 20px;
 }
 
 a {
