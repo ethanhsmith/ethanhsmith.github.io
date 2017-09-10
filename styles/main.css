@@ -1,0 +1,55 @@
+body {
+  font-family: helvetica, arial;
+  font-size: 18px;
+  background-color: #EEE;
+}
+
+p {
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+h1 {
+  color: #8129bc;
+  padding: 10px 0px;
+  margin: auto;
+  float: left;
+  text-decoration: underline;
+}
+
+ul {
+  background-color: #009900;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 5px;
+  float: right;
+}
+
+ul li {
+  float: left;
+  background-color: yellow;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thin;
+  margin: 5px 1px;
+  padding: 9px 9px;
+}
+
+ul a:hover,li:hover {
+  background-color: blue;
+  color: white;
+
+}
+
+nav {
+  float:left;
+}
+
+a {
+  padding: 9px 9px;
+  color: black;
+  text-decoration: none;
+}
