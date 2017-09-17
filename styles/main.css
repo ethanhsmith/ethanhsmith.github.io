@@ -1,12 +1,12 @@
 body {
   font-family: helvetica, arial;
   font-size: 18px;
-  background-color: #111;
+  color: #FFF;
+  background-color: #000;
 
 }
 
 p {
-  font
 }
 
 h3 {
@@ -21,48 +21,83 @@ h1 {
   font-weight: lighter;
 }
 
+
+
 header {
-  color: purple;
-  margin: 20px 10px 10px 10px;
-  padding: 5px 15px;
+  color: #FFFFFF;
+  margin: 20px 4% 0 4%;
+  padding: 5px 10px;
   border-radius: 8px;
   border-color: white;
-  border-style: ridge;
+  border-width: 2px;
+  border-style: solid;
   background-color: #001932;
   overflow: hidden;
 }
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 5px 5px;
+  padding: 0;
   float: right;
 }
 
 ul li {
   float: left;
-  background-color: #BBB;
-  border-radius: 10px;
-  border-style: solid;
-  border-width: 2px;
-  margin: 5px 1px;
-  padding: 9px 9px;
+  color: #F6C327;
+  font-weight: lighter;
+  margin: 0 0;
+  padding: 3.5% 8px;
+}
+
+.banner {
+  background: #F7C626;
+  background: linear-gradient(to top right, #F7C626, #ba1263);
+  margin: 0 0;
+  border-bottom: thick solid #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 0.5% 0;
+}
+
+.banner h3 {
+  margin: 1.25% 3%;
+  font-style: italic;
+  text-align: right;
+  font-weight: 500;
+  font-size: 26px;
+  color: #000;
+}
+
+/* Image code, unused */
+.image {
+  padding: 1% 0.5%;
+  float: right;
+  max-width: 6%;
+  max-height: 6%;
 }
 
 ul a:hover,li:hover {
-  background-color: purple;
-  color: white;
+  color: #F6C327;
 
 }
 
 nav {
-  background-color: #DDD;
-  float: center;
-  padding: 2px 20px;
-  margin: 1.2% 1%;
+  background-color: #000;
+  color: #FFF;
+  border-color: #FFF;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 1% 4% 1.2% 4%;
+}
+
+.text {
+  padding: 0.75% 20px;
 }
 
 a {
   padding: 9px 9px;
-  color: black;
+  color: #FFF;
   text-decoration: none;
 }
