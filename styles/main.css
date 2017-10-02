@@ -38,10 +38,6 @@ footer {
   margin: 0px 2px;
 }
 
-a.#seemore {
-  color: black;
-}
-
 .styled.h4 {
   margin-left: 20px;
   margin-top: 6px;
@@ -63,8 +59,4 @@ a.#seemore {
   letter-spacing: normal;
 }
 
-@@media screen and (min-width: 1000px) {
-  body {
-    background-color: green;
-  }
-}
+a.hover
