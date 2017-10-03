@@ -4,6 +4,10 @@
 
 a {
   text-decoration: none;
+  color: #C96645;
+}
+
+header a {
   color: #BBB;
 }
 
