@@ -10,6 +10,7 @@ class Home extends React.Component {
                 <div style={styles.info} className='ten-columns'>
                     <h4>Ethan Smith</h4>
                     <h5 style={styles.subtitle}>Full Stack Javascript Developer</h5>
+                    <p style={styles.paragraph}>Front End + Peace Loving Hippie</p>
                 </div>
             </div>
         )
@@ -38,6 +39,9 @@ const styles = {
     subtitle: {
         color: '#4FA750',
         borderBottom: 'solid 4px black' 
+    },
+    paragraph: {
+        padding: '3% 1%'
     }
 }
 
