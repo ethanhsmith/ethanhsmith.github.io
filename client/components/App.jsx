@@ -6,9 +6,9 @@ import NavBar from './NavBar'
 import Home from './Home'
 
 const App = () => (
-  <div className='app'>
+  <div  id='main-container' className='app'>
+    <NavBar id='nav-bar' />
     <div style={styles.container}>
-        <NavBar />
         <Home />
     </div>
   </div>
@@ -18,15 +18,13 @@ let imgUrl = 'images/header-img.jpg'
 
 const styles = {
   container: {
-    width: '100%',
-    height: '100%',
     flex: 1,
+    position: 'absolute',
     backgroundImage: 'url(' + imgUrl + ')',
             backgroundSize: 'cover',
             overflow: 'hidden',
   },
   box1: {
-    position: 'absolute',
     top: 40,
     left: 40,
     width: 100,

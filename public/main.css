@@ -14,12 +14,18 @@ header a {
 header {
   background-color: black;
   color: white;
-  margin-bottom: -5px;
 }
-#maincontain {
+
+#main-container {
+  height: 100%;
+  width: 100%;
   background-color: #23465f;
   padding-top: 5px;
   padding-bottom: 2%;
+}
+
+#nav-bar {
+  margin: 0;
 }
 body {
   background-color: black;
@@ -42,6 +48,10 @@ footer {
   margin: 0px 2px;
 }
 
+h1, h2, h3, h4, h5, h6{
+  margin-top:0px;
+  margin-bottom:0px;
+}
 .styled.h4 {
   margin-left: 20px;
   margin-top: 6px;
