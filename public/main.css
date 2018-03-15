@@ -16,6 +16,11 @@
 
 }
 
+li {
+  margin: 20px 0;
+  list-style-type: disc !important;
+}
+
 a {
   text-decoration: none;
   color: #C96645;
@@ -33,9 +38,7 @@ header {
 #main-container {
   height: 100%;
   width: 100%;
-  background-color: #23465f;
-  padding-top: 5px;
-  padding-bottom: 2%;
+  background-color: white;
 }
 
 #nav-bar {
@@ -66,6 +69,11 @@ h1, h2, h3, h4, h5, h6{
   margin-top:0px;
   margin-bottom:0px;
 }
+
+h3 {
+  font-size: 3vw;
+}
+
 .styled.h4 {
   margin-left: 20px;
   margin-top: 6px;
@@ -86,5 +94,3 @@ h1, h2, h3, h4, h5, h6{
   padding: 1px 2px;
   letter-spacing: normal;
 }
-
-a.hover

@@ -6,10 +6,11 @@ import NavBar from './NavBar'
 import Home from './Home'
 
 const App = () => (
-  <div  id='main-container' className='app'>
+  <div id='main-container' className='app'>
     <NavBar id='nav-bar' />
     <div style={styles.container}>
-        <Home />
+      <h3 style={styles.constructionMessage}>This Website is under construction.</h3>
+      <Home />
     </div>
   </div>
 )
@@ -18,38 +19,18 @@ let imgUrl = 'images/header-img.jpg'
 
 const styles = {
   container: {
-    flex: 1,
+    padding: '5% 10%',
     position: 'absolute',
     backgroundImage: 'url(' + imgUrl + ')',
             backgroundSize: 'cover',
             overflow: 'hidden',
   },
-  box1: {
-    top: 40,
-    left: 40,
-    width: 100,
-    height: 100,
-    backgroundColor: 'red'
-  },
-  box2: {
-    position: 'absolute',
-    top: 80,
-    left: 80,
-    width: 100,
-    height: 100,
-    backgroundColor: 'blue'
-  },
-  box3: {
-    position: 'absolute',
-    top: 120,
-    left: 120,
-    width: 100,
-    height: 100,
-    backgroundColor: 'green'
-  },
   text: {
     color: '#ffffff',
     fontSize: 80
+  },
+  constructionMessage: {
+    color: 'black'
   }
 }
 
