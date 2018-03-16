@@ -46,11 +46,10 @@ const styles = {
     },
     profile: {
         width: '100%',
-        justifyContent: 'center'
-
+        margin: 'auto',
+        padding: '4px'
     },
     info: {
-        width: '100%',
         margin: 'auto',
         padding: '0% 1% 1% 2%'
     },
