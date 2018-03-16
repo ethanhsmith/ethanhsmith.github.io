@@ -14,7 +14,7 @@ class Home extends React.Component {
                         <h4>Ethan Smith</h4>
                         <h5 style={styles.subtitle}>Full Stack Javascript Developer</h5>
                     </div>
-                    <p style={styles.paragraph}>Front End + Peace Loving Hippie</p>
+                    <p style={styles.paragraph}>Are you looking for your next Full Stack JS Developer? Email me!</p>
                     <b style={styles.paragraph}>Skills:</b>
                     <ul>
                         <li>React</li>
