@@ -19,6 +19,8 @@ let imgUrl = 'images/header-img.jpg'
 
 const styles = {
   container: {
+    height: '95%',
+    width:'100%',
     padding: '5% 10%',
     position: 'absolute',
     backgroundImage: 'url(' + imgUrl + ')',
