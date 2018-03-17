@@ -8,11 +8,29 @@ class Home extends React.Component {
             <div className='row' style={styles.container}>
                 <div className='three columns'>
                     <img src={imgUrl} style={styles.profile}></img>
+                    <div style={styles.externalSites}>
+                        <a className='four columns' href='https://github.com/ethanhsmith'>
+                            <div className='four columns'>
+                                <img style={styles.externalSitesIcons} src={'images/Github-Mark.png'}></img>
+                            </div>
+                        </a>
+                        <a className='four columns' href='https://www.linkedin.com/in/ethan-smith-31822153/'>
+                            <div className='four columns'>
+                                <img style={styles.externalSitesIcons} src={'images/Li-Mark.png'}></img>
+                            </div>
+                        </a>
+                        <a className='four columns' href='mailto:edhsmith@icloud.com'>
+                            <div>
+                                <p id='email'>@</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div style={styles.info} className='eight columns'>
                     <div style={styles.divider}>
                         <h4>Ethan Smith</h4>
                         <h5 style={styles.subtitle}>Full Stack Javascript Developer</h5>
+
                     </div>
                     <p style={styles.paragraph}>Are you looking for your next Full Stack JS Developer? Email me!</p>
                     <b style={styles.paragraph}>Skills:</b>
@@ -48,6 +66,16 @@ const styles = {
         width: '100%',
         margin: 'auto',
         padding: '4px'
+    },
+    externalSites: {
+        display: 'flex',
+        padding: '8px',
+        textAlign: 'center',
+        margin: 'auto'
+    },
+    externalSitesIcons: {
+        margin: 'auto',
+        height: '22px'
     },
     info: {
         margin: 'auto',
