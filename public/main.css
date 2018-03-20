@@ -94,3 +94,11 @@ h3 {
   padding: 1px 2px;
   letter-spacing: normal;
 }
+
+#email {
+  margin: auto;
+  padding: 10%;
+  font-size: 1.8em;
+  color: #E44424;
+  font-weight: bolder;
+}

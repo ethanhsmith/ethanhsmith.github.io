@@ -8,13 +8,34 @@ class Home extends React.Component {
             <div className='row' style={styles.container}>
                 <div className='three columns'>
                     <img src={imgUrl} style={styles.profile}></img>
+                    <div style={styles.externalSites}>
+                            <div className='four columns'>
+                            <a className='four columns' href='https://github.com/ethanhsmith' style={styles.a}>
+
+                                <img style={styles.externalSitesIcons} src={'images/Github-Mark.png'}></img>
+                                </a>
+
+                            </div>
+                        
+                            <div className='four columns'>
+                                <a className='four columns' href='https://www.linkedin.com/in/ethan-smith-31822153/' style={styles.a}>
+                                    <img style={styles.externalSitesIcons} src={'images/Li-Mark.png'}></img>
+                                </a>
+                            </div>
+                        <a className='four columns' href='mailto:edhsmith@icloud.com'>
+                            <div>
+                                <p id='email'>@</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div style={styles.info} className='eight columns'>
                     <div style={styles.divider}>
                         <h4>Ethan Smith</h4>
                         <h5 style={styles.subtitle}>Full Stack Javascript Developer</h5>
+
                     </div>
-                    <p style={styles.paragraph}>Are you looking for your next Full Stack JS Developer? Email me!</p>
+                    <p style={styles.paragraph}>Are you looking for your next Full Stack JS Developer? <a href='mailto:edhsmith@icloud.com'>Email me!</a></p>
                     <b style={styles.paragraph}>Skills:</b>
                     <ul>
                         <li>React</li>
@@ -49,6 +70,16 @@ const styles = {
         margin: 'auto',
         padding: '4px'
     },
+    externalSites: {
+        display: 'flex',
+        padding: '8px',
+        textAlign: 'center',
+        margin: 'auto'
+    },
+    externalSitesIcons: {
+        margin: 'auto',
+        height: '22px'
+    },
     info: {
         margin: 'auto',
         padding: '0% 1% 1% 2%'
@@ -63,6 +94,11 @@ const styles = {
     },
     divider: {
         padding: '0 0 5% 0'
+    },
+    a: {
+        display: 'block',
+        width: '100%',
+        height: '100%'
     }
 }
 
