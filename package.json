@@ -8,8 +8,8 @@
     "dev": "nodemon --watch server & webpack --watch",
     "test": "jest --watchAll",
     "start": "node server",
-    "build": "node server && webpack --config webpack.conf.js",
-    "predeploy": "npm run build",
+    "build": "webpack",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"  
   },
   "author": "EDA",

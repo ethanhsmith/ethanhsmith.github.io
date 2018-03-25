@@ -24,9 +24,9 @@ npm manifest:
       "dev": "nodemon --watch server & webpack --watch",
       "test": "jest --watchAll",
       "start": "node server",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
-      "postinstall": "webpack"
+      "build": "webpack",
+      "predeploy": "yarn build",
+      "deploy": "gh-pages -d build"  
     },
     "author": "EDA",
     "license": "ISC",
@@ -6827,7 +6827,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c npm run build
+  Arguments: -c gh-pages -d build
   Directory: /Users/ethansmith/workspace/ethanhsmith.github.io
   Output:
   
