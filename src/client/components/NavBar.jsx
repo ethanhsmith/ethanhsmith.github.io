@@ -1,6 +1,6 @@
 import React from 'react'
-import { connect } from 'react-redux'
-import { fetchPosts } from '../actions'
+// import { connect } from 'react-redux'
+// import { fetchPosts } from '../actions'
 
 class NavBar extends React.Component {
     constructor (props) {
@@ -17,9 +17,9 @@ class NavBar extends React.Component {
             <header>
                 <div className="container">
                     <div className="row" style={{ textAlign: 'center', padding: '1%' }}>
-                        <div name='home' className="four columns" styles={styles.currentItem} onMouseEnter={evt => this.hoverButton(evt)}>Home</div>
-                        <div name='blog' className="four columns" styles={styles.menuItem}><a href={'blog/'}>Blog</a></div>
-                        <div name='game' className="four columns" styles={styles.menuItem}><a href={'game/'}>Game</a></div>
+                        <div name='home' className="twelve columns" styles={styles.currentItem} onMouseEnter={evt => this.hoverButton(evt)}>Home</div>
+                        {/* <div name='blog' className="four columns" styles={styles.menuItem}><a href={'blog/'}>Blog</a></div> */}
+                        {/* <div name='game' className="four columns" styles={styles.menuItem}><a href={'game/'}>Game</a></div> */}
                     </div>
                 </div>
             </header>

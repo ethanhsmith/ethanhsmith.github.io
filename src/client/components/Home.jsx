@@ -35,7 +35,7 @@ class Home extends React.Component {
                         <h5 style={styles.subtitle}>Full Stack Javascript Developer</h5>
 
                     </div>
-                    <p style={styles.paragraph}>Are you looking for your next Full Stack JS Developer? <a href='mailto:edhsmith@icloud.com'>Email me!</a></p>
+                    <p style={styles.paragraph}>Are you looking for your next Full Stack JS Developer? Don't be shy to <a href='mailto:edhsmith@icloud.com'>send me an email.</a></p>
                     <b style={styles.paragraph}>Skills:</b>
                     <ul>
                         <li>React</li>
