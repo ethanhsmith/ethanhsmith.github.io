@@ -12,7 +12,7 @@ class Home extends React.Component {
                             <div className='four columns'>
                             <a className='four columns' href='https://github.com/ethanhsmith' style={styles.a}>
 
-                                <img style={styles.externalSitesIcons} src={'images/Github-Mark.png'}></img>
+                                <img style={styles.externalSitesIcons} src={'images/GitHub-Mark.png'}></img>
                                 </a>
 
                             </div>
