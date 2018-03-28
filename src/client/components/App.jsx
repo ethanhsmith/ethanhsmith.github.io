@@ -4,12 +4,16 @@ import React from 'react'
 
 import NavBar from './NavBar'
 import Home from './Home'
+import Footer from './Footer'
 
 const App = () => (
   <div id='main-container' className='app'>
-    <NavBar id='nav-bar' />
     <div style={styles.container}>
+    <NavBar id='nav-bar' />
+
       <Home />
+      <Footer />
+
     </div>
   </div>
 )
@@ -18,7 +22,7 @@ let imgUrl = 'images/header-img.jpg'
 
 const styles = {
   container: {
-    height: '96%',
+    height: '100%',
     width:'100%',
     padding: '5% 10%',
     position: 'absolute',

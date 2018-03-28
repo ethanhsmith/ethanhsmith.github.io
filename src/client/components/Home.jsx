@@ -27,9 +27,9 @@ class Home extends React.Component {
                                 <p id='email'>@</p>
                             </div>
                         </a>
-                    </div>
                 </div>
-                <div style={styles.info} className='eight columns'>
+                </div>
+                <div style={styles.info} className='nine columns'>
                     <div style={styles.divider}>
                         <h4>Ethan Smith</h4>
                         <h5 style={styles.subtitle}>Full Stack Javascript Developer</h5>
@@ -58,8 +58,8 @@ class Home extends React.Component {
 
 const styles = {
     container: {
-        backgroundColor: 'white',
-        padding: '1% 1%',
+        backgroundColor: 'black',
+        padding: '0% 0%',
         margin: 'auto',
         lineHeight: 0,
         textAlign: 'left',
@@ -81,8 +81,10 @@ const styles = {
         height: '22px'
     },
     info: {
-        margin: 'auto',
-        padding: '0% 1% 1% 2%'
+        backgroundColor: 'white',
+        margin: '0% 0% 0% 4%',
+        height: '100%',
+        padding: '1% 1% 1% 1%'
     },
     subtitle: {
         color: '#4FA750',

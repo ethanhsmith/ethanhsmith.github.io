@@ -9,7 +9,6 @@ class NavBar extends React.Component {
     }
 
     hoverButton (evt) {
-        console.log(evt)
     }
 
     render() {
