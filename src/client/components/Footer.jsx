@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => (
     <div style={styles.footer}>
-        <h1>Created by Ethan Smith, 2018 - React, JS</h1>
+        {/* <h1>Created by Ethan Smith, 2018 - React, JS</h1> */}
     </div>
 )
 

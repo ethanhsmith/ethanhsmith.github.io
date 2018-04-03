@@ -58,7 +58,7 @@ class Home extends React.Component {
 
 const styles = {
     container: {
-        backgroundColor: 'black',
+        backgroundColor: 'white',
         padding: '0% 0%',
         margin: 'auto',
         lineHeight: 0,
@@ -82,7 +82,7 @@ const styles = {
     },
     info: {
         backgroundColor: 'white',
-        margin: '0% 0% 0% 4%',
+        margin: '0% 0% 0% 0%',
         height: '100%',
         padding: '1% 1% 1% 1%'
     },
@@ -93,6 +93,7 @@ const styles = {
     },
     paragraph: {
         padding: '0% 0%',
+        lineHeight: '1.5'
     },
     divider: {
         padding: '0 0 5% 0'
