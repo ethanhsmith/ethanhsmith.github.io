@@ -13,18 +13,21 @@ class NavBar extends React.Component {
 
     render() {
         return (
-            <header className="container">
-                    <div className="row" style={{ textAlign: 'center', padding: '1%' }}>
-                        <div name='home' className="twelve columns" styles={styles.currentItem} onMouseEnter={evt => this.hoverButton(evt)}>Home</div>
-                        {/* <div name='blog' className="four columns" styles={styles.menuItem}><a href={'blog/'}>Blog</a></div> */}
-                        {/* <div name='game' className="four columns" styles={styles.menuItem}><a href={'game/'}>Game</a></div> */}
-                    </div>
+            <header className="row" style={styles.header}>
+                    <div name='home' className="twelve columns" styles={styles.currentItem} onMouseEnter={evt => this.hoverButton(evt)}>Home</div>
+                    {/* <div name='blog' className="four columns" styles={styles.menuItem}><a href={'blog/'}>Blog</a></div> */}
+                    {/* <div name='game' className="four columns" styles={styles.menuItem}><a href={'game/'}>Game</a></div> */}
             </header>
         )
     }
 }
 
 const styles = {
+    header: {
+        width: '100%',
+        textAlign: 'center', 
+        padding: '1%'
+    },
     menuItem: {
         padding: '5%',
         margin: '5%',

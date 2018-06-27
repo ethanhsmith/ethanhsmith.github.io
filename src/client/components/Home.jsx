@@ -46,7 +46,7 @@ class Home extends React.Component {
                         <li>Git with Github</li>
                         <li>HTML5</li>
                         <li>CSS3</li>
-                        <li>+more</li>
+                        <li>And more.</li>
                     </ul>
                 </div>
             </div>
@@ -80,7 +80,7 @@ const styles = {
     },
     info: {
         backgroundColor: 'white',
-        margin: '0% 0% 0% 4%',
+        margin: '0%',
         height: '100%',
         padding: '1% 1% 1% 1%'
     },
