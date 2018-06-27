@@ -28,14 +28,14 @@ class Home extends React.Component {
                             </div>
                     </div>
                 </div>
-                <div style={styles.info} className='nine columns'>
+                <div style={styles.infoSection} className='nine columns'>
                     <div style={styles.divider}>
                         <h4 style={styles.nameTitle}>Ethan Smith</h4>
                         <p style={styles.subtitle}>Full Stack Javascript Developer</p>
                     </div>
                     <p>Are you looking for your next Full Stack JS Developer? <a href='mailto:edhsmith@icloud.com'>Email me!</a></p>
                     <b>Skills:</b>
-                    <ul>
+                    <ul style={styles.ul}>
                         <li>Javascript</li>
                         <li>React</li>
                         <li>Redux</li>
@@ -66,7 +66,7 @@ const styles = {
         color: 'black'
     },
     profileSection: {
-        padding: '6px'
+        padding: '3px'
     },
     profile: {
         width: '100%',
@@ -75,7 +75,7 @@ const styles = {
     },
     externalSites: {
         display: 'flex',
-        padding: '6px',
+        padding: '3px',
         textAlign: 'center',
         margin: 'auto'
     },
@@ -83,14 +83,14 @@ const styles = {
         margin: 'auto',
         height: '22px'
     },
-    info: {
-        backgroundColor: '#fafafa',
+    infoSection: {
+        lineHeight: '1.2',
         margin: 'auto',
-        height: '100%',
-        padding: '6px',
+        padding: '3px'
     },
     divider: {
         margin: 'auto',
+        marginBottom: '15px',
         borderBottom: 'solid 3px black',
         padding: '3px'
     },
@@ -105,6 +105,9 @@ const styles = {
         display: 'block',
         margin: 'auto',
         height: '100%'
+    },
+    ul: {
+        lineHeight: '0.2'
     }   
 }
 
