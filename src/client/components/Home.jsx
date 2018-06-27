@@ -9,21 +9,23 @@ class Home extends React.Component {
                 <div className='three columns'>
                     <img src={imgUrl} style={styles.profile} alt=""></img>
                     <div style={styles.externalSites}>
-                            <div className='four columns'>
-                            <a className='four columns' href='https://github.com/ethanhsmith' style={styles.a}>
-                                <img style={styles.externalSitesIcons} src={'images/GitHub-Mark.png'}  alt=""></img>
+                            <div>
+                                <a className='four columns' href='https://github.com/ethanhsmith' style={styles.a}>
+                                    <img style={styles.externalSitesIcons} src={'images/GitHub-Mark.png'}  alt=""></img>
                                 </a>
                             </div>
-                            <div className='four columns'>
+                            <div>
                                 <a className='four columns' href='https://www.linkedin.com/in/ethan-smith-31822153/' style={styles.a}>
                                     <img style={styles.externalSitesIcons} src={'images/Li-Mark.png'}  alt=""></img>
                                 </a>
                             </div>
-                            <a className='four columns' href='mailto:edhsmith@icloud.com'>
-                                <div>
-                                    <p id='email'>@</p>
-                                </div>
-                            </a>
+                            <div>
+                                <a className='four columns' href='mailto:edhsmith@icloud.com'>
+                                    <div>
+                                        <p id='email'>@</p>
+                                    </div>
+                                </a>
+                            </div>
                     </div>
                 </div>
                 <div style={styles.info} className='nine columns'>
@@ -31,8 +33,8 @@ class Home extends React.Component {
                         <h4 style={styles.nameTitle}>Ethan Smith</h4>
                         <h5 style={styles.subtitle}>Full Stack Javascript Developer</h5>
                     </div>
-                    <p style={styles.paragraph}>Are you looking for your next Full Stack JS Developer? <a href='mailto:edhsmith@icloud.com'>Email me!</a></p>
-                    <b style={styles.paragraph}>Skills:</b>
+                    <p>Are you looking for your next Full Stack JS Developer? <a href='mailto:edhsmith@icloud.com'>Email me!</a></p>
+                    <b>Skills:</b>
                     <ul>
                         <li>Javascript</li>
                         <li>React</li>
@@ -57,7 +59,7 @@ class Home extends React.Component {
 const styles = {
     container: {
         backgroundColor: 'black',
-        padding: '0% 0%',
+        padding: '0',
         margin: 'auto',
         lineHeight: 0,
         textAlign: 'left',
@@ -82,17 +84,13 @@ const styles = {
         backgroundColor: '#fafafa',
         margin: '0%',
         height: '100%',
-        padding: '6px 6px 6px 0'
+        padding: '6px',
     },
     subtitle: {
         color: '#5F5EFF',
     },
-    paragraph: {
-        padding: '0% 0%',
-    },
     divider: {
-        padding: '0',
-        margin: '0 0 15px 0',
+        margin: '0 0 0 0',
         borderBottom: 'solid 4px black'
     },
     a: {
