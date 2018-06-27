@@ -63,7 +63,7 @@ const styles = {
         margin: 'auto',
         lineHeight: 0,
         textAlign: 'left',
-        color: 'black'
+        color: 'black',
     },
     profileSection: {
         padding: '3px'

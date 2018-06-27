@@ -24,8 +24,8 @@ const styles = {
     padding: '5% 10%',
     position: 'absolute',
     backgroundImage: 'url(' + imgUrl + ')',
-            backgroundSize: 'auto',
-            overflow: 'hidden',
+    backgroundSize: 'auto',
+    overflow: 'auto',
   },
   text: {
     color: '#ffffff',
