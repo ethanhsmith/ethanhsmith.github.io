@@ -3,7 +3,8 @@ import {render} from 'react-dom'
 import {Provider} from 'react-redux'
 import {createStore, applyMiddleware, compose} from 'redux'
 import thunkMiddleware from 'redux-thunk'
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
+// Taken out as currently unecessary. Will consider registering in the future.
 
 import reducers from './client/reducers'
 import App from './client/components/App'
