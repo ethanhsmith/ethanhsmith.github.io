@@ -9,18 +9,18 @@ class Home extends React.Component {
                 <div className='three columns'>
                     <img src={imgUrl} style={styles.profile} alt=""></img>
                     <div style={styles.externalSites}>
-                            <div>
-                                <a className='four columns' href='https://github.com/ethanhsmith' style={styles.a}>
+                            <div className='four columns'>
+                                <a href='https://github.com/ethanhsmith' style={styles.a}>
                                     <img style={styles.externalSitesIcons} src={'images/GitHub-Mark.png'}  alt=""></img>
                                 </a>
                             </div>
-                            <div>
-                                <a className='four columns' href='https://www.linkedin.com/in/ethan-smith-31822153/' style={styles.a}>
+                            <div className='four columns'>
+                                <a href='https://www.linkedin.com/in/ethan-smith-31822153/' style={styles.a}>
                                     <img style={styles.externalSitesIcons} src={'images/Li-Mark.png'}  alt=""></img>
                                 </a>
                             </div>
-                            <div>
-                                <a className='four columns' href='mailto:edhsmith@icloud.com'>
+                            <div className='four columns'>
+                                <a href='mailto:edhsmith@icloud.com'>
                                     <div>
                                         <p id='email'>@</p>
                                     </div>
@@ -31,7 +31,7 @@ class Home extends React.Component {
                 <div style={styles.info} className='nine columns'>
                     <div style={styles.divider}>
                         <h4 style={styles.nameTitle}>Ethan Smith</h4>
-                        <h5 style={styles.subtitle}>Full Stack Javascript Developer</h5>
+                        <p style={styles.subtitle}>Full Stack Javascript Developer</p>
                     </div>
                     <p>Are you looking for your next Full Stack JS Developer? <a href='mailto:edhsmith@icloud.com'>Email me!</a></p>
                     <b>Skills:</b>
@@ -48,7 +48,7 @@ class Home extends React.Component {
                         <li>Git with Github</li>
                         <li>HTML5</li>
                         <li>CSS3</li>
-                        <li>And more.</li>
+                        <li>And more</li>
                     </ul>
                 </div>
             </div>
@@ -59,7 +59,7 @@ class Home extends React.Component {
 const styles = {
     container: {
         backgroundColor: 'black',
-        padding: '0',
+        padding: '6px',
         margin: 'auto',
         lineHeight: 0,
         textAlign: 'left',
@@ -68,11 +68,11 @@ const styles = {
     profile: {
         width: '100%',
         margin: 'auto',
-        padding: '6px'
+        padding: '3px'
     },
     externalSites: {
         display: 'flex',
-        padding: '9px',
+        padding: '6px',
         textAlign: 'center',
         margin: 'auto'
     },
@@ -84,24 +84,25 @@ const styles = {
         backgroundColor: '#fafafa',
         margin: '0%',
         height: '100%',
-        padding: '6px',
-    },
-    subtitle: {
-        color: '#5F5EFF',
+        padding: '3px',
     },
     divider: {
-        margin: '0 0 0 0',
-        borderBottom: 'solid 4px black'
+        margin: 'auto',
+        borderBottom: 'solid 3px black',
+        padding: '3px'
+    },
+    nameTitle: {
+        margin: 'auto'
+    },
+    subtitle: {
+        margin: 'auto',
+        color: '#5F5EFF'
     },
     a: {
         display: 'block',
-        width: '100%',
+        margin: 'auto',
         height: '100%'
-    },
-    nameTitle: {
-        lineHeight: 0,
-        margin: '10px 0'
-    }
+    }   
 }
 
 export default Home
