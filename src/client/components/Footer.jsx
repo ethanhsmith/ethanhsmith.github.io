@@ -7,12 +7,6 @@ const Footer = () => (
 )
 
 const styles = {
-    container: {
-        backgroundColor: 'white',
-        height: '40000px',
-        width: '500px',
-        color: 'black'
-    }, 
     footer: {
         textAlign: 'center',
         fontWeight: 'bold'

@@ -66,11 +66,11 @@ const styles = {
     profile: {
         width: '100%',
         margin: 'auto',
-        padding: '4px'
+        padding: '6px'
     },
     externalSites: {
         display: 'flex',
-        padding: '8px',
+        padding: '9px',
         textAlign: 'center',
         margin: 'auto'
     },
@@ -79,10 +79,10 @@ const styles = {
         height: '22px'
     },
     info: {
-        backgroundColor: 'white',
+        backgroundColor: '#fafafa',
         margin: '0%',
         height: '100%',
-        padding: '1% 1% 1% 1%'
+        padding: '6px 6px 6px 0'
     },
     subtitle: {
         color: '#5F5EFF',

@@ -1,6 +1,5 @@
 import React from 'react'
-// import Parallax from 'parallax-js'
-// import Background from './Background'
+
 
 import NavBar from './NavBar'
 import Home from './Home'
@@ -31,9 +30,6 @@ const styles = {
   text: {
     color: '#ffffff',
     fontSize: 80
-  },
-  constructionMessage: {
-    color: 'black'
   }
 }
 
