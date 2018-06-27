@@ -6,9 +6,9 @@ class Home extends React.Component {
     render() {
         return (
             <div className='row' style={styles.container}>
-                <div className='three columns'>
+                <div style={styles.profileSection} className='three columns'>
                     <img src={imgUrl} style={styles.profile} alt=""></img>
-                    <div style={styles.externalSites}>
+                    <div style={styles.externalSites} className='row'>
                             <div className='four columns'>
                                 <a href='https://github.com/ethanhsmith' style={styles.a}>
                                     <img style={styles.externalSitesIcons} src={'images/GitHub-Mark.png'}  alt=""></img>
@@ -58,17 +58,20 @@ class Home extends React.Component {
 
 const styles = {
     container: {
-        backgroundColor: 'black',
+        backgroundColor: '#fafafa',
         padding: '6px',
         margin: 'auto',
         lineHeight: 0,
         textAlign: 'left',
         color: 'black'
     },
+    profileSection: {
+        padding: '6px'
+    },
     profile: {
         width: '100%',
         margin: 'auto',
-        padding: '3px'
+        borderRadius: '3px'
     },
     externalSites: {
         display: 'flex',
@@ -82,9 +85,9 @@ const styles = {
     },
     info: {
         backgroundColor: '#fafafa',
-        margin: '0%',
+        margin: 'auto',
         height: '100%',
-        padding: '3px',
+        padding: '6px',
     },
     divider: {
         margin: 'auto',
