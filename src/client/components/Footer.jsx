@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => (
     <div style={styles.footer}>
-        <h1>Created by Ethan Smith, 2018 - React, JS</h1>
+        <p>Created by Ethan Smith, 2018 - React, JS</p>
     </div>
 )
 
@@ -12,6 +12,10 @@ const styles = {
         height: '40000px',
         width: '500px',
         color: 'black'
+    }, 
+    footer: {
+        textAlign: 'center',
+        fontWeight: 'bold'
     }
 }
 
