@@ -9,11 +9,9 @@ import Footer from './Footer'
 const App = () => (
   <div id='main-container' className='app'>
     <div style={styles.container}>
-    <NavBar id='nav-bar' />
-
+      <NavBar id='nav-bar' />
       <Home />
       <Footer />
-
     </div>
   </div>
 )
